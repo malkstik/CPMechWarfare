@@ -4,7 +4,7 @@
 #include "taskshare.h"         // Header for inter-task shared data
 #include "taskqueue.h"         // Header for inter-task data queues
 #include "shares.h"            // Header for shares used in this project
-
+#include "AX12A.h"
 // Pin Declarations
 /*
 #define TurretPin = 
@@ -55,3 +55,9 @@ void setup ()
 
 void loop() {}
 */
+
+void setup()
+{}
+
+void loop()
+{}

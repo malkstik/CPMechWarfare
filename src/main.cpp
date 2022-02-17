@@ -5,6 +5,8 @@
 #include "taskqueue.h"         // Header for inter-task data queues
 #include "shares.h"            // Header for shares used in this project
 #include "AX12A.h"
+#include <BleGamepad.h>
+#include <NimBLEDevice.h>
 // Pin Declarations
 /*
 #define TurretPin = 
@@ -56,9 +58,34 @@ void setup ()
 void loop() {}
 */
 
-void setup()
-{}
+BleGamepad bleGamepad;
+#define numOfButtons 10
 
-void loop()
-{}
+void setup() 
+{
+  Serial.begin(115200);
+  Serial.println("Starting BLE work!");
+  bleGamepad.begin();
+  // The default bleGamepad.begin() above is the same as bleGamepad.begin(16, 1, true, true, true, true, true, true, true, true, false, false, false, false, false);
+  // which enables a gamepad with 16 buttons, 1 hat switch, enabled x, y, z, rZ, rX, rY, slider 1, slider 2 and disabled rudder, throttle, accelerator, brake, steering
+  // Auto reporting is enabled by default. 
+  // Use bleGamepad.setAutoReport(false); to disable auto reporting, and then use bleGamepad.sendReport(); as needed
+}
+
+void loop() 
+{
+  if(bleGamepad.isConnected()) 
+  {
+    Serial.println("Press all buttons one by one");
+    for(int i = 1 ; i <= numOfButtons ; i += 1)
+    {
+      bleGamepad.press(i);
+      bleGamepad.sendReport();
+      delay(100);
+      bleGamepad.release(i);
+      bleGamepad.sendReport();
+      delay(25);
+    }
+  }
+}
    

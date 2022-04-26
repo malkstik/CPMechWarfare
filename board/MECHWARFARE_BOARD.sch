@@ -303,65 +303,6 @@ AdaFruit Featherwing which attaches to a Feather development board.</description
 </package>
 </packages>
 <symbols>
-<symbol name="FRAME_LET_L">
-<frame x1="0" y1="0" x2="254" y2="190.5" columns="6" rows="5" layer="94" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="63.5" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="10.16" x2="63.5" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="27.94" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="27.94" y1="5.08" x2="63.5" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="63.5" y1="5.08" x2="63.5" y2="0" width="0.1016" layer="94"/>
-<wire x1="63.5" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="63.5" y1="10.16" x2="63.5" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="63.5" y1="10.16" x2="27.94" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="27.94" y1="10.16" x2="0" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="10.16" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="20.32" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="63.5" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="63.5" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
-<wire x1="0" y1="20.32" x2="63.5" y2="20.32" width="0.1016" layer="94"/>
-<wire x1="0" y1="20.32" x2="0" y2="27.94" width="0.1016" layer="94"/>
-<text x="1.27" y="11.43" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="11.43" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="29.21" y="6.35" size="2.54" layer="94">Sheet:</text>
-<text x="41.91" y="6.35" size="2.54" layer="94">&gt;SHEET</text>
-<text x="1.27" y="6.35" size="2.54" layer="94">Rev:</text>
-<text x="1.27" y="30.48" size="2.54" layer="94">Project:</text>
-<text x="1.27" y="1.27" size="2.54" layer="94">Document Number:</text>
-<text x="93.345" y="3.81" size="2.54" layer="94" align="bottom-right">&gt;DRAWING_NAME</text>
-<text x="10.16" y="6.35" size="2.54" layer="94">&gt;REVISION</text>
-<text x="1.27" y="22.86" size="2.54" layer="94">Title:</text>
-<text x="17.78" y="30.48" size="2.54" layer="94">&gt;PROJECT_NAME</text>
-<wire x1="0" y1="27.94" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="0" y1="27.94" x2="63.5" y2="27.94" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="63.5" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="16.51" size="2.54" layer="94">Drawn By:</text>
-<wire x1="63.5" y1="27.94" x2="63.5" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="63.5" y1="20.32" x2="63.5" y2="27.94" width="0.1016" layer="94"/>
-<text x="83.82" y="27.94" size="8.128" layer="94" align="center">ME507</text>
-<text x="82.55" y="19.05" size="1.778" layer="94" align="bottom-center">Cal Poly</text>
-<text x="82.55" y="15.24" size="1.778" layer="94" align="bottom-center">Mechanical Engineering</text>
-<wire x1="63.5" y1="20.32" x2="63.5" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="63.5" y1="10.16" x2="63.5" y2="15.24" width="0.1016" layer="94"/>
-<text x="82.55" y="11.43" size="1.778" layer="94" align="bottom-center">San Luis Obispo, CA</text>
-<text x="37.084" y="1.27" size="2.54" layer="94">&gt;DOC_NUM</text>
-<wire x1="27.94" y1="5.08" x2="27.94" y2="10.16" width="0.1016" layer="94"/>
-<text x="22.86" y="16.51" size="2.54" layer="94">&gt;AUTHOR</text>
-<text x="12.7" y="22.86" size="2.54" layer="94">&gt;BOARD_NAME</text>
-<text x="93.98" y="3.81" size="2.54" layer="94">.sch</text>
-</symbol>
-<symbol name="NOTES">
-<wire x1="0" y1="0" x2="139.7" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="139.7" y1="35.56" x2="139.7" y2="0" width="0.1016" layer="94"/>
-<wire x1="139.7" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<text x="2.54" y="30.48" size="2.54" layer="94">Notes:</text>
-</symbol>
 <symbol name="MICROSHIELD">
 <wire x1="0" y1="33.02" x2="0" y2="22.86" width="0.254" layer="94"/>
 <wire x1="0" y1="22.86" x2="0" y2="12.7" width="0.254" layer="94"/>
@@ -427,23 +368,67 @@ AdaFruit Featherwing which attaches to a Feather development board.</description
 <text x="-1.016" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
+<symbol name="FRAME_LET_L">
+<frame x1="0" y1="0" x2="254" y2="190.5" columns="6" rows="5" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="63.5" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="63.5" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="27.94" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="27.94" y1="5.08" x2="63.5" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="63.5" y1="5.08" x2="63.5" y2="0" width="0.1016" layer="94"/>
+<wire x1="63.5" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="63.5" y1="10.16" x2="63.5" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="63.5" y1="10.16" x2="27.94" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="27.94" y1="10.16" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="63.5" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="63.5" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="0" y1="20.32" x2="63.5" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="0" y1="20.32" x2="0" y2="27.94" width="0.1016" layer="94"/>
+<text x="1.27" y="11.43" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="11.43" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="29.21" y="6.35" size="2.54" layer="94">Sheet:</text>
+<text x="41.91" y="6.35" size="2.54" layer="94">&gt;SHEET</text>
+<text x="1.27" y="6.35" size="2.54" layer="94">Rev:</text>
+<text x="1.27" y="30.48" size="2.54" layer="94">Project:</text>
+<text x="1.27" y="1.27" size="2.54" layer="94">Document Number:</text>
+<text x="93.345" y="3.81" size="2.54" layer="94" align="bottom-right">&gt;DRAWING_NAME</text>
+<text x="10.16" y="6.35" size="2.54" layer="94">&gt;REVISION</text>
+<text x="1.27" y="22.86" size="2.54" layer="94">Title:</text>
+<text x="17.78" y="30.48" size="2.54" layer="94">&gt;PROJECT_NAME</text>
+<wire x1="0" y1="27.94" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="0" y1="27.94" x2="63.5" y2="27.94" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="63.5" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="16.51" size="2.54" layer="94">Drawn By:</text>
+<wire x1="63.5" y1="27.94" x2="63.5" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="63.5" y1="20.32" x2="63.5" y2="27.94" width="0.1016" layer="94"/>
+<text x="83.82" y="27.94" size="8.128" layer="94" align="center">ME507</text>
+<text x="82.55" y="19.05" size="1.778" layer="94" align="bottom-center">Cal Poly</text>
+<text x="82.55" y="15.24" size="1.778" layer="94" align="bottom-center">Mechanical Engineering</text>
+<wire x1="63.5" y1="20.32" x2="63.5" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="63.5" y1="10.16" x2="63.5" y2="15.24" width="0.1016" layer="94"/>
+<text x="82.55" y="11.43" size="1.778" layer="94" align="bottom-center">San Luis Obispo, CA</text>
+<text x="37.084" y="1.27" size="2.54" layer="94">&gt;DOC_NUM</text>
+<wire x1="27.94" y1="5.08" x2="27.94" y2="10.16" width="0.1016" layer="94"/>
+<text x="22.86" y="16.51" size="2.54" layer="94">&gt;AUTHOR</text>
+<text x="12.7" y="22.86" size="2.54" layer="94">&gt;BOARD_NAME</text>
+<text x="93.98" y="3.81" size="2.54" layer="94">.sch</text>
+</symbol>
+<symbol name="NOTES">
+<wire x1="0" y1="0" x2="139.7" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="139.7" y1="35.56" x2="139.7" y2="0" width="0.1016" layer="94"/>
+<wire x1="139.7" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<text x="2.54" y="30.48" size="2.54" layer="94">Notes:</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TITLEBLOCK_LET_L" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FRAME_LET_L" x="0" y="0" addlevel="always"/>
-<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="always"/>
-<gate name="G$3" symbol="NOTES" x="5.08" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FEATHERWING" prefix="MS">
 <description>&lt;b&gt;AdaFruit&lt;sup&gt;TM&lt;/sup&gt; Feather Wing&lt;/b&gt;
 &lt;p&gt;
@@ -567,6 +552,21 @@ Larger versions can carry more current.</description>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TITLEBLOCK_LET_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_LET_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="always"/>
+<gate name="G$3" symbol="NOTES" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8132,40 +8132,30 @@ Source:  FDD4141.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="ME507" deviceset="TITLEBLOCK_LET_L" device="">
-<attribute name="BOARD_NAME" value="ZEN GARDEN"/>
-</part>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO-214AC" package3d_urn="urn:adsk.eagle:package:43416/2"/>
-<part name="MS1" library="ME507" deviceset="FEATHERWING" device="EXTENDED_BOTH_ENDS"/>
-<part name="TURRET_PWR" library="XT60" deviceset="XT60" device=""/>
 <part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="FDD4141" device="TO252" package3d_urn="urn:adsk.eagle:package:28537/2"/>
-<part name="TURRET_PWR1" library="XT60" deviceset="XT60" device=""/>
 <part name="X_3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X3" library="ME507" deviceset="SCREWTERM_2P" device="_254"/>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="J1" library="con-molex-spox" deviceset="5267-3" device=""/>
+<part name="U$1" library="XT60" deviceset="XT60" device=""/>
+<part name="U$2" library="XT60" deviceset="XT60" device=""/>
+<part name="J2" library="con-molex-spox" deviceset="5267-3" device=""/>
+<part name="MS2" library="ME507" deviceset="FEATHERWING" device="EXTENDED_BOTH_ENDS"/>
+<part name="FRAME1" library="ME507" deviceset="TITLEBLOCK_LET_L" device="">
+<attribute name="AUTHOR" value="Aaron Tran"/>
+<attribute name="BOARD_NAME" value="MOT_AND_TURRET"/>
+<attribute name="PROJECT_NAME" value="MECH WARFARE"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$3" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$1" x="-5.08" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="142.24" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="154.94" y="11.43" size="2.54" layer="94"/>
-<attribute name="SHEET" x="184.15" y="6.35" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="235.585" y="3.81" size="2.54" layer="94" align="bottom-right"/>
-<attribute name="REVISION" x="152.4" y="6.35" size="2.54" layer="94"/>
-<attribute name="PROJECT_NAME" x="160.02" y="30.48" size="2.54" layer="94"/>
-<attribute name="DOC_NUM" x="179.324" y="1.27" size="2.54" layer="94"/>
-<attribute name="AUTHOR" x="165.1" y="16.51" size="2.54" layer="94"/>
-<attribute name="BOARD_NAME" x="154.94" y="22.86" size="2.54" layer="94"/>
-</instance>
 <instance part="R1" gate="G$1" x="149.86" y="88.9" smashed="yes">
 <attribute name="NAME" x="146.05" y="90.3986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="85.598" size="1.778" layer="96"/>
@@ -8175,15 +8165,12 @@ Source:  FDD4141.pdf</description>
 <attribute name="NAME" x="187.4774" y="104.14" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="190.2714" y="104.14" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="MS1" gate="G$1" x="96.52" y="127" smashed="yes" rot="R270"/>
-<instance part="TURRET_PWR" gate="G$1" x="175.26" y="116.84" smashed="yes" rot="R180"/>
 <instance part="X_2" gate="G$1" x="180.34" y="111.76" smashed="yes"/>
 <instance part="Q2" gate="G$1" x="185.42" y="86.36" smashed="yes">
 <attribute name="VALUE" x="163.83" y="82.55" size="1.778" layer="96"/>
 <attribute name="NAME" x="173.99" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="TURRET_PWR1" gate="G$1" x="58.42" y="124.46" smashed="yes"/>
-<instance part="X_3" gate="G$1" x="38.1" y="124.46" smashed="yes"/>
+<instance part="X_3" gate="G$1" x="35.56" y="124.46" smashed="yes"/>
 <instance part="X3" gate="-1" x="231.14" y="104.14" smashed="yes">
 <attribute name="NAME" x="234.696" y="103.505" size="1.778" layer="95"/>
 </instance>
@@ -8193,9 +8180,24 @@ Source:  FDD4141.pdf</description>
 </instance>
 <instance part="X_5" gate="G$1" x="81.28" y="111.76" smashed="yes"/>
 <instance part="X_4" gate="G$1" x="33.02" y="101.6" smashed="yes"/>
-<instance part="J1" gate="G$1" x="38.1" y="88.9" smashed="yes" rot="R180">
+<instance part="U$1" gate="G$1" x="58.42" y="127" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="175.26" y="116.84" smashed="yes" rot="R180"/>
+<instance part="J2" gate="G$1" x="38.1" y="88.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="38.1" y="94.38" size="1.27" layer="94" rot="R180"/>
 <attribute name="NAME" x="38.1" y="83.74" size="1.27" layer="94" rot="R180"/>
+</instance>
+<instance part="MS2" gate="G$1" x="99.06" y="127" smashed="yes" rot="R270"/>
+<instance part="FRAME1" gate="G$3" x="5.08" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="147.32" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="160.02" y="11.43" size="2.54" layer="94"/>
+<attribute name="SHEET" x="189.23" y="6.35" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="240.665" y="3.81" size="2.54" layer="94" align="bottom-right"/>
+<attribute name="REVISION" x="157.48" y="6.35" size="2.54" layer="94"/>
+<attribute name="PROJECT_NAME" x="165.1" y="30.48" size="2.54" layer="94"/>
+<attribute name="DOC_NUM" x="184.404" y="1.27" size="2.54" layer="94"/>
+<attribute name="AUTHOR" x="170.18" y="16.51" size="2.54" layer="94"/>
+<attribute name="BOARD_NAME" x="160.02" y="22.86" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -8226,12 +8228,12 @@ Source:  FDD4141.pdf</description>
 <wire x1="187.96" y1="104.14" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
 <label x="210.82" y="104.14" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="TURRET_PWR" gate="G$1" pin="VCC"/>
 <wire x1="203.2" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="119.38" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
 <junction x="203.2" y="104.14"/>
 <pinref part="X3" gate="-1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8242,58 +8244,58 @@ Source:  FDD4141.pdf</description>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 <segment>
-<pinref part="TURRET_PWR" gate="G$1" pin="GND"/>
 <pinref part="X_2" gate="G$1" pin="0"/>
 <wire x1="180.34" y1="114.3" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
 <label x="185.42" y="111.76" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GND"/>
 <pinref part="X_5" gate="G$1" pin="0"/>
-<wire x1="91.44" y1="114.3" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="114.3" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="114.3" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="76.2" y="111.76" size="1.778" layer="95"/>
+<pinref part="MS2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="X_3" gate="G$1" pin="0"/>
-<pinref part="TURRET_PWR1" gate="G$1" pin="GND"/>
-<wire x1="38.1" y1="124.46" x2="38.1" y2="127" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="127" x2="53.34" y2="127" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="124.46" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="40.64" y1="91.36" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="106.68" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="X_4" gate="G$1" pin="0"/>
-<pinref part="J1" gate="G$1" pin="-3"/>
 <wire x1="40.64" y1="91.36" x2="38.1" y2="91.36" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="-3"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="MS1" gate="G$1" pin="GPIO5"/>
-<wire x1="134.62" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="MS2" gate="G$1" pin="GPIO5"/>
 </segment>
 </net>
 <net name="MOTOR_POWER" class="0">
 <segment>
-<pinref part="TURRET_PWR1" gate="G$1" pin="VCC"/>
-<wire x1="53.34" y1="121.92" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="-2"/>
+<wire x1="53.34" y1="124.46" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="88.82" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="88.9" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="88.9" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
 <label x="50.8" y="106.68" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="J2" gate="G$1" pin="-2"/>
 </segment>
 </net>
 <net name="MOTOR_CMD" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="-1"/>
-<pinref part="MS1" gate="G$1" pin="GPIOTX"/>
 <wire x1="38.1" y1="86.28" x2="91.44" y2="86.28" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="86.28" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="86.28" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="50.8" y="83.82" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="-1"/>
+<pinref part="MS2" gate="G$1" pin="GPIOTX"/>
 </segment>
 </net>
 </nets>

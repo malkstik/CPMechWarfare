@@ -8180,7 +8180,7 @@ Source:  FDD4141.pdf</description>
 <attribute name="VALUE" x="163.83" y="82.55" size="1.778" layer="96"/>
 <attribute name="NAME" x="173.99" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="X_3" gate="G$1" x="35.56" y="124.46" smashed="yes"/>
+<instance part="X_3" gate="G$1" x="38.1" y="124.46" smashed="yes"/>
 <instance part="X3" gate="-1" x="231.14" y="104.14" smashed="yes">
 <attribute name="NAME" x="234.696" y="103.505" size="1.778" layer="95"/>
 </instance>
@@ -8256,8 +8256,8 @@ Source:  FDD4141.pdf</description>
 </segment>
 <segment>
 <pinref part="X_3" gate="G$1" pin="0"/>
-<wire x1="35.56" y1="124.46" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="124.46" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>

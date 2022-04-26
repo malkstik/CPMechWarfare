@@ -8271,12 +8271,11 @@ Source:  FDD4141.pdf</description>
 <pinref part="J2" gate="G$1" pin="-3"/>
 </segment>
 </net>
-<net name="TURRET_IO" class="0">
+<net name="N$21" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="MS2" gate="G$1" pin="GPIO5"/>
-<label x="142.24" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOTOR_POWER" class="0">

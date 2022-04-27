@@ -8142,7 +8142,6 @@ Source:  FDD4141.pdf</description>
 <part name="X_5" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_4" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="U$1" library="XT60" deviceset="XT60" device=""/>
-<part name="U$2" library="XT60" deviceset="XT60" device=""/>
 <part name="J2" library="con-molex-spox" deviceset="5267-3" device=""/>
 <part name="MS2" library="ME507" deviceset="FEATHERWING" device="EXTENDED_BOTH_ENDS"/>
 <part name="FRAME1" library="ME507" deviceset="TITLEBLOCK_LET_L" device="">
@@ -8150,6 +8149,7 @@ Source:  FDD4141.pdf</description>
 <attribute name="BOARD_NAME" value="MOT_AND_TURRET"/>
 <attribute name="PROJECT_NAME" value="MECH WARFARE"/>
 </part>
+<part name="U$2" library="XT60" deviceset="XT60" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8181,7 +8181,6 @@ Source:  FDD4141.pdf</description>
 <instance part="X_5" gate="G$1" x="81.28" y="111.76" smashed="yes"/>
 <instance part="X_4" gate="G$1" x="33.02" y="101.6" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="58.42" y="127" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="175.26" y="116.84" smashed="yes" rot="R180"/>
 <instance part="J2" gate="G$1" x="38.1" y="88.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="38.1" y="94.38" size="1.27" layer="94" rot="R180"/>
 <attribute name="NAME" x="38.1" y="83.74" size="1.27" layer="94" rot="R180"/>
@@ -8199,6 +8198,7 @@ Source:  FDD4141.pdf</description>
 <attribute name="AUTHOR" x="170.18" y="16.51" size="2.54" layer="94"/>
 <attribute name="BOARD_NAME" x="160.02" y="22.86" size="2.54" layer="94"/>
 </instance>
+<instance part="U$2" gate="G$1" x="157.48" y="119.38" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8229,7 +8229,7 @@ Source:  FDD4141.pdf</description>
 <label x="210.82" y="104.14" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="203.2" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="121.92" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="119.38" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
 <junction x="203.2" y="104.14"/>
 <pinref part="X3" gate="-1" pin="1"/>
@@ -8245,8 +8245,9 @@ Source:  FDD4141.pdf</description>
 </segment>
 <segment>
 <pinref part="X_2" gate="G$1" pin="0"/>
-<wire x1="180.34" y1="114.3" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="116.84" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
 <label x="185.42" y="111.76" size="1.778" layer="95"/>
+<wire x1="180.34" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>

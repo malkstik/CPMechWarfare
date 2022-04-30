@@ -156,15 +156,6 @@
 </layers>
 <board>
 <plain>
-<text x="37.338" y="1.524" size="1.27" layer="25" rot="R90">Turret +</text>
-<text x="29.845" y="1.651" size="1.27" layer="25" rot="R90">Turret -</text>
-<text x="36.068" y="8.509" size="1.27" layer="25">JST 2p</text>
-<circle x="22.987" y="23.749" radius="21.849903125" width="0.6096" layer="26"/>
-<wire x1="39.37" y1="22.86" x2="6.35" y2="22.86" width="0.6096" layer="26" curve="-175.594804"/>
-<circle x="13.97" y="30.48" radius="2.83980625" width="0.6096" layer="26"/>
-<circle x="31.75" y="30.48" radius="2.83980625" width="0.6096" layer="26"/>
-<text x="36.83" y="44.45" size="1.778" layer="26" rot="MR90">KL AT CS</text>
-<text x="40.64" y="40.64" size="1.778" layer="26" rot="MR90">Mech Warfare 2022</text>
 </plain>
 <libraries>
 <library name="diode" urn="urn:adsk.eagle:library:210">
@@ -1648,104 +1639,81 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO-214AC" package3d_urn="urn:adsk.eagle:package:43416/2" value="" x="34.29" y="13.081" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.385" y="11.811" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="25" x="77.47" y="52.451" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="37.465" y="10.541" size="1.27" layer="27" rot="R90"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO-214AC" package3d_urn="urn:adsk.eagle:package:43416/2" value="" x="25.4" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.495" y="11.43" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="25" x="68.58" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="28.575" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="FDD4141TO252" x="36.83" y="21.59" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.29" y="25.4" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="3" x="6.35" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO252" package3d_urn="urn:adsk.eagle:package:28537/2" value="FDD4141TO252" x="21.59" y="24.13" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.05" y="27.94" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="3" x="-8.89" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="19.05" y="19.05" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100" x="26.67" y="24.765" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.94" y="25.4" size="1.27" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="85" x="-19.05" y="-9.525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-19.05" y="-9.525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="24.13" y="25.4" size="1.27" layer="27" rot="R270"/>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100" x="19.05" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.685" y="36.83" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="85" x="-15.24" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-15.24" y="83.82" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="19.685" y="40.64" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X3" library="ME507" package="2POL254" value="" x="33.02" y="4.445" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.909" y="2.032" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="35.814" y="10.033" size="1.27" layer="27" rot="R180"/>
+<element name="X3" library="ME507" package="2POL254" value="" x="39.37" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.052" y="11.176" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="44.958" y="11.176" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$1" library="XT60" package="XT60" value="XT60" x="12.954" y="1.143" smashed="yes" rot="R90"/>
+<element name="U$1" library="XT60" package="XT60" value="XT60" x="1.27" y="5.08" smashed="yes"/>
+<element name="U$2" library="XT60" package="XT60" value="XT60" x="27.94" y="5.08" smashed="yes"/>
 <element name="J2" library="con-molex-spox" package="5267-3" value="5267-3" x="5.08" y="19.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.62" y="19.05" size="1.27" layer="21" rot="R270"/>
-<attribute name="VALUE" x="0" y="19.05" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="7.62" y="21.59" size="1.27" layer="21" rot="R270"/>
+<attribute name="VALUE" x="0" y="21.59" size="1.27" layer="21" rot="R270"/>
 </element>
 <element name="MS2" library="ME507" package="FEATHERWING" value="FEATHERWINGEXTENDED_BOTH_ENDS" x="11.43" y="78.74" smashed="yes" rot="R270"/>
-<element name="U$2" library="XT60" package="XT60" value="XT60" x="23.749" y="1.27" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="GATE">
 <contactref element="R1" pad="2"/>
 <contactref element="Q2" pad="1"/>
-<wire x1="26.67" y1="23.815" x2="26.725" y2="23.87" width="0.6096" layer="1"/>
-<wire x1="26.725" y1="23.87" x2="32.03" y2="23.87" width="0.6096" layer="1"/>
+<wire x1="16.79" y1="26.41" x2="16.79" y2="36.79" width="0.6096" layer="1"/>
+<wire x1="16.79" y1="36.79" x2="18.1" y2="38.1" width="0.6096" layer="1"/>
 </signal>
 <signal name="TURRET_NEG">
 <contactref element="D1" pad="A"/>
 <contactref element="Q2" pad="2"/>
 <contactref element="X3" pad="2"/>
-<wire x1="32.03" y1="19.31" x2="32.265" y2="19.075" width="0.6096" layer="1"/>
-<wire x1="32.03" y1="19.31" x2="31.75" y2="19.03" width="0.6096" layer="1"/>
-<wire x1="31.75" y1="4.445" x2="31.75" y2="19.03" width="0.6096" layer="1"/>
-<wire x1="31.75" y1="15.106" x2="34.29" y2="15.106" width="0.6096" layer="1"/>
-<wire x1="31.75" y1="4.445" x2="31.75" y2="15.106" width="0.6096" layer="1"/>
+<wire x1="16.79" y1="21.85" x2="17.025" y2="21.615" width="0.6096" layer="1"/>
+<wire x1="39.37" y1="15.24" x2="26.155" y2="15.24" width="0.6096" layer="1"/>
+<wire x1="26.155" y1="15.24" x2="25.4" y2="15.995" width="0.6096" layer="1"/>
+<wire x1="16.79" y1="21.85" x2="22.645" y2="15.995" width="0.6096" layer="1"/>
+<wire x1="22.645" y1="15.995" x2="25.4" y2="15.995" width="0.6096" layer="1"/>
 </signal>
 <signal name="TURRET_POS">
 <contactref element="D1" pad="C"/>
 <contactref element="X3" pad="1"/>
-<wire x1="34.29" y1="11.77" x2="34.29" y2="11.056" width="0.6096" layer="1"/>
-<wire x1="34.29" y1="4.445" x2="34.29" y2="11.056" width="0.6096" layer="1"/>
+<wire x1="39.37" y1="12.7" x2="39.95" y2="12.12" width="0.6096" layer="1"/>
+<wire x1="39.37" y1="12.7" x2="38.1" y2="11.43" width="0.6096" layer="1"/>
+<wire x1="25.915" y1="11.43" x2="25.4" y2="11.945" width="0.6096" layer="1"/>
+<wire x1="38.1" y1="11.43" x2="25.915" y2="11.43" width="0.6096" layer="1"/>
 <contactref element="U$2" pad="+"/>
-<wire x1="23.749" y1="5.77" x2="28.1982" y2="1.3208" width="0.6096" layer="1"/>
-<wire x1="28.1982" y1="1.3208" x2="34.29" y2="1.3208" width="0.6096" layer="1"/>
-<wire x1="34.29" y1="1.3208" x2="34.29" y2="4.445" width="0.6096" layer="1"/>
+<wire x1="32.44" y1="5.08" x2="32.265" y2="5.08" width="0.508" layer="1"/>
+<wire x1="32.44" y1="5.08" x2="25.575" y2="11.945" width="0.6096" layer="1"/>
+<wire x1="25.575" y1="11.945" x2="25.4" y2="11.945" width="0.6096" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="Q2" pad="3"/>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="1">
 <vertex x="0" y="83.82"/>
 <vertex x="0" y="0"/>
 <vertex x="44.45" y="0"/>
 <vertex x="44.45" y="83.82"/>
 </polygon>
 <contactref element="U$1" pad="-"/>
+<contactref element="U$2" pad="-"/>
 <contactref element="J2" pad="P$3"/>
 <contactref element="MS2" pad="4"/>
-<contactref element="U$2" pad="-"/>
-<polygon width="0.1524" layer="1">
-<vertex x="34.29" y="26.162"/>
-<vertex x="34.29" y="16.891"/>
-<vertex x="43.18" y="16.891"/>
-<vertex x="43.18" y="26.162"/>
-</polygon>
-<via x="36.83" y="24.13" extent="1-16" drill="0.35"/>
-<via x="38.1" y="24.13" extent="1-16" drill="0.35"/>
-<via x="39.37" y="24.13" extent="1-16" drill="0.35"/>
-<via x="40.64" y="24.13" extent="1-16" drill="0.35"/>
-<via x="36.83" y="22.86" extent="1-16" drill="0.35"/>
-<via x="38.1" y="22.86" extent="1-16" drill="0.35"/>
-<via x="39.37" y="22.86" extent="1-16" drill="0.35"/>
-<via x="40.64" y="22.86" extent="1-16" drill="0.35"/>
-<via x="36.83" y="21.59" extent="1-16" drill="0.35"/>
-<via x="38.1" y="21.59" extent="1-16" drill="0.35"/>
-<via x="39.37" y="21.59" extent="1-16" drill="0.35"/>
-<via x="40.64" y="21.59" extent="1-16" drill="0.35"/>
-<via x="36.83" y="20.32" extent="1-16" drill="0.35"/>
-<via x="38.1" y="20.32" extent="1-16" drill="0.35"/>
-<via x="39.37" y="20.32" extent="1-16" drill="0.35"/>
-<via x="40.64" y="20.32" extent="1-16" drill="0.35"/>
-<via x="36.83" y="19.05" extent="1-16" drill="0.35"/>
-<via x="38.1" y="19.05" extent="1-16" drill="0.35"/>
-<via x="39.37" y="19.05" extent="1-16" drill="0.35"/>
-<via x="40.64" y="19.05" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$21">
 <contactref element="R1" pad="1"/>
+<wire x1="20" y1="38.1" x2="21.27" y2="39.37" width="0.6096" layer="1"/>
 <contactref element="MS2" pad="19"/>
-<wire x1="26.67" y1="25.715" x2="26.67" y2="33.02" width="0.6096" layer="1"/>
-<wire x1="26.67" y1="33.02" x2="33.02" y2="39.37" width="0.6096" layer="1"/>
+<wire x1="21.27" y1="39.37" x2="33.02" y2="39.37" width="0.6096" layer="1"/>
 </signal>
 <signal name="MOTOR_POWER">
 <contactref element="U$1" pad="+"/>
@@ -1753,8 +1721,8 @@ design rules under a new name.</description>
 <wire x1="5.08" y1="16.55" x2="6.35" y2="16.55" width="0.508" layer="1"/>
 <wire x1="5.08" y1="16.55" x2="7.58" y2="16.55" width="0.6096" layer="1"/>
 <wire x1="7.58" y1="16.55" x2="7.62" y2="16.51" width="0.6096" layer="1"/>
-<wire x1="12.954" y1="5.643" x2="7.62" y2="10.977" width="0.6096" layer="1"/>
-<wire x1="7.62" y1="16.51" x2="7.62" y2="10.977" width="0.6096" layer="1"/>
+<wire x1="7.62" y1="6.93" x2="5.77" y2="5.08" width="0.6096" layer="1"/>
+<wire x1="7.62" y1="16.51" x2="7.62" y2="6.93" width="0.6096" layer="1"/>
 </signal>
 <signal name="MOTOR_CMD">
 <contactref element="J2" pad="P$1"/>
